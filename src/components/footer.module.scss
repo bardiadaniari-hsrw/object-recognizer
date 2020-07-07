@@ -1,0 +1,20 @@
+.parent{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-item {
+    color: blue;
+    font-size: 0.8rem;
+    margin-right: 1.3rem;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    color: #555555;
+}
+
+.active-nav-item{
+    color: #333333;
+}
