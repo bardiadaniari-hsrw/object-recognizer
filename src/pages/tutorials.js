@@ -1,18 +1,28 @@
 import React from "react";
 import Layout from "../components/layout";
+import image1 from "../images/image1.jpeg"
+import image2 from "../images/image2.jpeg"
+import image3 from "../images/image3.jpeg"
+import image4 from "../images/image4.jpeg"
+import image5 from "../images/image5.jpeg"
+import image6 from "../images/image6.jpeg"
+import image7 from "../images/image7.jpeg"
+import image8 from "../images/image8.jpeg"
+import image9 from "../images/image9.jpeg"
+
 
 const Tutorials = () => {
     return (
         <Layout>
             <h2>Tutorial/User Instructions</h2>
             <h3>Object Recognition Software (ORS)</h3>
-            <pre><code>                       Tutorial/<span class="hljs-keyword">User</span> <span class="hljs-title">Instructions</span>
+            <pre><code>                       Tutorial/<span className="hljs-keyword">User</span> <span className="hljs-title">Instructions</span>
 
 Object Recognition Software (ORS)
 </code></pre><p><strong>About ORS:</strong></p>
 <p><em>Object recognition software</em> enables computers to identify and process images in a way similar to human vision. For e.g. a person, a chair, bicycle, etc.</p>
 <p>Software is built on the YOLOv3 prediction model and programs are written in Python.</p>
-<p>This tutorial aims to assist the users of this software with respect to the installation and usage of the software</p>
+<p>This tutorial aims to assist the users of this software with respect to the/imageation and usage of the software</p>
 <p><strong>Prerequisites:</strong></p>
 <ol>
 <li>Operating System: Windows or Linux</li>
@@ -20,7 +30,7 @@ Object Recognition Software (ORS)
 <li>Connect a web camera and/or make sure it has the security permission from the operating system.</li>
 </ol>
 <p>Go to Windows Setting-\&gt; Security -\&gt; Camera -\&gt; Allow desktop apps to access the camera.</p>
-<p><strong>Installation:</strong></p>
+<p><strong>/image ation:</strong></p>
 <ol>
 <li>The application file and the supporting documentation files can be downloaded from a GitHub repository.</li>
 <li>Click on the below-mentioned link and visit GitHub repository to download the <em>Setup.exe</em> file.</li>
@@ -30,31 +40,31 @@ Object Recognition Software (ORS)
 <li>Users can also find a link to the GitHub repository on our website below.</li>
 </ol>
 <p>Visit <a href="https://romantic-euler-a3b063.netlify.app/">https://romantic-euler-a3b063.netlify.app/</a></p>
-<p>Double click on the downloaded <em>Setup.exe</em> file to run it on your computer. An installation window will appear (See Fig1).</p>
-<p><img src="images2\install.jpg" alt="install" width="520" height="350"/></p>
-<pre><code>           Fig1. Starting Installation
+<p>Double click on the downloaded <em>Setup.exe</em> file to run it on your computer. An/imageation window will appear (See Fig1).</p>
+<p><img src={image1} alt="install" width="520" height="350"/></p>
+<pre><code>           Fig1. Starting/imageation
 </code></pre><p>Then click on <em>YES</em>.</p>
-<p>Once clicked on <em>YES</em>, an installation window as below will appear (See Fig2).</p>
-<p><img src="images2\install1.png" alt="install1" width="520"/></p>
-<pre><code>            Fig2. Installation <span class="hljs-built_in">Window</span>
+<p>Once clicked on <em>YES</em>, an/imageation window as below will appear (See Fig2).</p>
+<p><img src={image2} alt="/image1" width="520"/></p>
+<pre><code>            Fig2./imageation <span className="hljs-built_in">Window</span>
 </code></pre><ol>
-<li><p>Chose the desired destination for installation and then click on <em>Install</em>.</p>
+<li><p>Chose the desired destination for/imageation and then click on <em>/image</em>.</p>
 </li>
-<li><p>Now the installation will start and this will take only a few seconds to complete.</p>
+<li><p>Now the/imageation will start and this will take only a few seconds to complete.</p>
 </li>
-<li><p>As the installation is in progress you can see a folder named <em>Image Recognition</em> created at the desired destination on the disk. </p>
+<li><p>As the/imageation is in progress you can see a folder named <em>Image Recognition</em> created at the desired destination on the disk. </p>
 <p>   All the files are extracted to this folder (See Fig3).</p>
 </li>
 </ol>
-<p><img src="images2\instprog.jpg" alt="instprog" width="720" height="400"/></p>
-<pre><code>               Fig3. <span class="hljs-keyword">Installation </span>complete
+<p><img src={image3} alt="instprog" width="720" height="400"/></p>
+<pre><code>               Fig3. <span className="hljs-keyword">/imageation </span>complete
 </code></pre><ol>
-<li>Close the installation window when finished.</li>
+<li>Close the/imageation window when finished.</li>
 <li>Open the folder named <em>Image Recognition.</em> Inside ths folder, you will find the application file and all supporting documentation.</li>
 <li>Click on the application file named &quot;<em>ImageRecognition&quot;</em> to open the user interface of the Software. (See Fig4).</li>
 </ol>
-<p><img src="images2\runapp.jpg" alt="runapp" width="720" height="400"/></p>
-<pre><code>           Fig4<span class="hljs-selector-class">.Application</span> file location
+<p><img src={image4} alt="runapp" width="720" height="400"/></p>
+<pre><code>           Fig4<span className="hljs-selector-className">.Application</span> file location
 </code></pre><p>Now you are ready to use the ORS Software.</p>
 <p><strong>Usage:</strong></p>
 <ol>
@@ -63,8 +73,8 @@ Object Recognition Software (ORS)
 <li><p>The GUI of the image recognition software consists of a Main Window, a menu bar, a toolbar, a status bar, and basic elements, referred to as widgets which are located in a central widget. In this case, the elements are actions, labels, and a slider. The GUI has seven actions and three group actions in total. These are displayed in the menu bar and the toolbar.</p>
 </li>
 </ol>
-<p><img src="images2\main_window.jpg" alt="main_window" width="720" height="400"/></p>
-<pre><code>                        Fig5. Main <span class="hljs-built_in">Window</span>
+<p><img src={image5} alt="main_window" width="720" height="400"/></p>
+<pre><code>                        Fig5. Main <span className="hljs-built_in">Window</span>
 </code></pre><p><strong>1. Menu bar:</strong></p>
 <p>It provides 3 menus- File, Edit &amp; Help.</p>
 <ol>
@@ -86,14 +96,14 @@ Object Recognition Software (ORS)
 </ul>
 <p>To reset or to create a clean new workspace Click on <em>File-\&gt;New</em> in the Menu bar or Click on the button &quot;<em>New</em>&quot; in the toolbar or press <em>Ctrl+N</em> on the keyboard (See Fig6). This action is useful when there is an image already loaded and you want to remove it from the workspace.</p>
 <p>This action deletes any temporary file created by the &quot;Process&quot; action and disables the &quot;Remove&quot; action.</p>
-<p><img src="images2\filemenu.jpg" alt="filemenu" width="720" height="400"/></p>
-<pre><code>                     Fig6. Creating <span class="hljs-keyword">a</span> <span class="hljs-built_in">new</span> workspace
+<p><img src={image6} alt="filemenu" width="720" height="400"/></p>
+<pre><code>                     Fig6. Creating <span className="hljs-keyword">a</span> <span className="hljs-built_in">new</span> workspace
 </code></pre><ul>
 <li><strong>Loading</strong>  <strong>a new Image:</strong></li>
 </ul>
 <p>A new image can be loaded by opening an &quot;Open File&quot; dialog (See Fig.7).</p>
-<p><img src="images2\open.jpg" alt="open" width="820" height="500"/></p>
-<pre><code>                 Fig<span class="hljs-number">.7</span> loading <span class="hljs-keyword">a</span> <span class="hljs-built_in">new</span> Image <span class="hljs-keyword">into</span> workspace
+<p><img src={image7} alt="open" width="820" height="500"/></p>
+<pre><code>                 Fig<span className="hljs-number">.7</span> loading <span className="hljs-keyword">a</span> <span className="hljs-built_in">new</span> Image <span className="hljs-keyword">into</span> workspace
 </code></pre><ol>
 <li>Click on File-\&gt;Open in menu bar or click on &quot;Open tool&quot; in tool bar or press Ctrl+O to open the dialog.</li>
 <li>Then search for an image file on your disk to load it. Accepted formats are - .jpg, .png &amp; bmp.</li>
@@ -108,13 +118,13 @@ Object Recognition Software (ORS)
 <li><strong>Multiple objects</strong> in the image are simultaneously detected and the names of the objects are highlighted along with the accuracy level (confidence level) of detection on the rectangular frames around the objects (See Fig8).</li>
 <li>The confidence level of detection can be customized by changing the settings in the label confidence level. In fig9, it is set to 50%, so only the objects detected with accuracy equal to or more than 50% are shown and highlighted.</li>
 </ol>
-<p><img src="images2\processed_image.jpg" alt="processed_image" width="820" height="500"/></p>
-<pre><code>                        Fi<span class="hljs-name">g8.</span> Processed Image
+<p><img src={image8} alt="processed_image" width="820" height="500"/></p>
+<pre><code>                        Fi<span className="hljs-name">g8.</span> Processed Image
 </code></pre><ul>
 <li><strong>Font size of the text</strong> on detected squares can be changed by going to <em>edit menu-\&gt;Edit font size</em>. There are three sizes, Small, Medium, and Big. The Medium size is the default one (See Fig.9).</li>
 </ul>
-<p><img src="images2\fontsize.jpg" alt="fontsize" width="720" height="350"/></p>
-<pre><code>                Fig9. Changing Font size <span class="hljs-keyword">label</span><span class="bash"></span>
+<p><img src={image9} alt="fontsize" width="720" height="350"/></p>
+<pre><code>                Fig9. Changing Font size <span className="hljs-keyword">label</span><span className="bash"></span>
 </code></pre><ul>
 <li><p><strong>Using Web camera:</strong></p>
 </li>
