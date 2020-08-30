@@ -20,7 +20,7 @@ const Footer = () => {
                 <Link className={footerStyles.navItem} to="/contact">Contact us</Link>
             </li>
             <li>
-                <Link className={footerStyles.navItem} to="https://www.hochschule-rhein-waal.de/en" target="_blank">{data.site.siteMetadata.university}</Link>
+                <a className={footerStyles.navItem} href="https://www.hochschule-rhein-waal.de/en" rel="noreferrer" target="_blank">{data.site.siteMetadata.university}</a>
             </li>
             <li>
                 <p>Created by {data.site.siteMetadata.author}</p>

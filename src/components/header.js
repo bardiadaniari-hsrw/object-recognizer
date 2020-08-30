@@ -28,7 +28,7 @@ const Header = () => {
         <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/tutorials">Tutorials</Link>
       </li>
       <li>
-        <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="https://github.com/" target="_blank">Github</Link>
+        <a className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} href="https://github.com/" rel="noreferrer" target="_blank">Github</a>
       </li>
     </nav>
   </header>
