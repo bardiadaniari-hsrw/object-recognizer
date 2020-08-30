@@ -2,10 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Object RRRecognizer`,
     description: `Object Recognizer is a machine learning tool that allows the recognition of a set number of objects within an image`,
-    author: `Group 5`,
+    author: `Group B`,
     university: `Hochschule Rhein-Waal`
   },
   plugins: [`gatsby-plugin-sass`,
+  `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
